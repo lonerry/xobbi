@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyFirstSite</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.0/fullpage.min.js" integrity="sha512-HqbDsHIJoZ36Csd7NMupWFxC7e7aX2qm213sX+hirN+yEx/eUNlZrTWPs1dUQDEW4fMVkerv1PfMohR1WdFFJQ==" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.0/fullpage.css" integrity="sha512-hGBKkjAVJUXoImyDezOKpzuY4LS1eTvJ4HTC/pbxn47x5zNzGA1vi3vFQhhOehWLTNHdn+2Yqh/IRNPw/8JF/A==" crossorigin="anonymous" />
+    <script  src="fullpage.js"></script>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+<div id="fullpage">
+    <div class="section" data-anchor="slide1" style="background-color: #0c0c0c;">
+        <div class="name"><h1>Ева Валлисту</h1></div>
+        <div class="about"><h2>Моё хобби - программирование</h2></div>
+        <div class="school"><h2>МОУ Лицей №13</h2></div>
+        <img src="me.jpg" alt="Изображение 1" class="ava">
+        
+        <div class="round">
+          <div class="round1"></div>
+          <div class="round2"></div>
+          <div class="round3"></div>
+          <div class="round4"></div>
+          <div class="round5"></div>
+      </div>
+
+      <ul class="social-icons">
+        <li><a class="social-icon-git" href="https://github.com/lonerry" ></a></li>
+        <li><a class="social-icon-vk" href="https://vk.com/lonerry"></a></li>
+        <li><a class="social-icon-telegram" href="https://t.me/lonerry"></a></li>
+    </ul>
+    </div>
+
+
+    <div class="section" data-anchor="slide2" style="background-color: #0c0c0c; display: flex; justify-content: center; align-items: center;">
+        <div class="me" >
+            <h1>ᯓ★    Обо мне    ᯓ★</h1>
+            <p>Привет! Меня зовут Ева, мне 17 лет, я учусь в лицее №13. Мне нравится изучение новых программ, разработка увлекательных проектов и решение сложных задач с использованием программирования.</p>
+        </div>
+        <div class="girl" style="margin-left: 1000px; margin-top: -20px;"><img src="girl.png" alt="Изображение 2" style="width: 350px;"></div>
+    </div>
+    
+
+
+    <div class="section" data-anchor="slide3" style="background-color: #0c0c0c;">
+        <div class="xobbi"><h1>Мои увлечения сконцентрированы вокруг создания веб-сайтов с использованием HTML, CSS и JavaScript.</h1></div>
+        <div class="languages">
+        <img src="https://pngimg.com/uploads/skeleton/skeleton_PNG42655.png"  alt="Изображение 3" width="300px">
+        <img src="human.png" alt="Изображение 4" width="300px">
+        <img src="output-onlinegiftools.gif" alt="Изображение 5" width="400px">
+    </div>
+    <div class="aboutlg">
+        <ul>
+       <li>HTML, как основной язык разметки веб-страниц, является скелетом сайта</li>
+       <li>CSS дает возможность придать визуальное оформление сайтам</li>
+       <li>JavaScript добавляет динамичности, делая сайты более функциональными</li>
+    </ul>
+    <div class="htmlcssjs">
+        <h4>HTML CSS JavaScript</h4>
+       
+    </div>
+
+    </div>
+
+    </div>
+    <div class="section" data-anchor="slide4" style="background-color: #0c0c0c;">
+        <div class="xobbi"><h2>Я всегда на связи и готова принять участие в новых увлекательных проектах! Все мои работы находятся ⬇</h2></div>
+        <a class="git2" href="https://github.com/lonerry"><img src="icons8-github-100.png" alt="Изображение 6" width="200px"></a>
+    </div>
+</div>
+
+<script>
+    new fullpage("#fullpage", {
+        anchors: ['slide1', 'slide2', 'slide3', 'slide4'],
+        navigation: true,
+        navigationPosition: 'left',
+        parallax: true,
+    });
+</script>
+
+</body>
+</html>
